@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
               super.onCreate(savedInstanceState)
               setContent {
                      StateTheme {
-                            Card("bfjvsjvuys", "idfgaiuysgdkufgaksdugyf")
+                            Card("bfjvsjvuys", "idfgaiuysgdkufgaksdugyf", "jbejfhs")
                      }
               }
        }
@@ -36,7 +36,8 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Card(
        title: String,
-       subtitle: String
+       subtitle: String,
+       text: String
 ) {
        var expand by remember { mutableStateOf(false) }
        androidx.compose.material.Card(
