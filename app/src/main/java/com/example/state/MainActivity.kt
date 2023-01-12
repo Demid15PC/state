@@ -41,7 +41,6 @@ fun Card(
        var expand by remember { mutableStateOf(false) }
        androidx.compose.material.Card(
               modifier = Modifier.fillMaxSize(),
-              elevation = 5.dp,
        ) {
               Column(
                      horizontalAlignment = Alignment.CenterHorizontally
